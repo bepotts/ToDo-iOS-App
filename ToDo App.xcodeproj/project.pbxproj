@@ -16,6 +16,8 @@
 		2973881B24EA0A7700177E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2973881924EA0A7700177E69 /* LaunchScreen.storyboard */; };
 		2973882624EA0A7700177E69 /* ToDo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2973882524EA0A7700177E69 /* ToDo_AppTests.swift */; };
 		2973883124EA0A7700177E69 /* ToDo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2973883024EA0A7700177E69 /* ToDo_AppUITests.swift */; };
+		2973883F24EA112400177E69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2973883E24EA112400177E69 /* README.md */; };
+		2973884124EA113400177E69 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2973884024EA113400177E69 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2973882C24EA0A7700177E69 /* ToDo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2973883024EA0A7700177E69 /* ToDo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_AppUITests.swift; sourceTree = "<group>"; };
 		2973883224EA0A7700177E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2973883E24EA112400177E69 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2973884024EA113400177E69 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		297387FF24EA0A7400177E69 = {
 			isa = PBXGroup;
 			children = (
+				2973884024EA113400177E69 /* .gitignore */,
+				2973883E24EA112400177E69 /* README.md */,
 				2973880A24EA0A7400177E69 /* ToDo App */,
 				2973882424EA0A7700177E69 /* ToDo AppTests */,
 				2973882F24EA0A7700177E69 /* ToDo AppUITests */,
@@ -235,8 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2973884124EA113400177E69 /* .gitignore in Resources */,
 				2973881B24EA0A7700177E69 /* LaunchScreen.storyboard in Resources */,
 				2973881824EA0A7700177E69 /* Assets.xcassets in Resources */,
+				2973883F24EA112400177E69 /* README.md in Resources */,
 				2973881324EA0A7400177E69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
